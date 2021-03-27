@@ -2,6 +2,7 @@
 
 ### Data types
 - Go source files are always encoded in UTF-8 and strings are conventionally interpreted as UTF-8, so we can include Unicode code points in string literals.
+- A slice has 3 components: a pointer, a length and a capacity.
 
 ### Productivity
 #### Best IDE

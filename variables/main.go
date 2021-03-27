@@ -51,6 +51,16 @@ func main() {
 	fmt.Println("First customer age: ", firstCustomer.age)
 
 	secondCustomer := customer{"Iron Man", 20}
-
 	fmt.Println("Second customer: ", secondCustomer)
+
+	//REFERENCE TYPES
+	//slice is a reference type, as is internally references an array
+	grades := []string{"A", "B", "C"}
+	fmt.Println("Best grade: ", grades[0])
+
+	grades = append(grades, "Z")
+	fmt.Println("Worst grade: ", grades[len(grades)-1])
+
+	luckyNumbers := favouriteNumbers[0:2]
+	fmt.Println("Lucky numbers: ", luckyNumbers)
 }
