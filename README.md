@@ -4,7 +4,7 @@ Hands-on introduction to Go using code examples
 ## Topics covered
 - [x] Hello World
 - [x] Values
-- [ ] Variables
+- [x] Variables
 - [ ] Constants
 - [ ] For
 - [ ] If/Else
@@ -19,7 +19,7 @@ Hands-on introduction to Go using code examples
 - [ ] Closures
 - [ ] Recursion
 - [ ] Pointers
-- [ ] Structs
+- [x] Structs
 - [ ] Methods
 - [ ] Interfaces
 - [ ] Errors

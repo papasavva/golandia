@@ -26,4 +26,31 @@ func main() {
 
 	var alwaysUtf8 string = "Go source files are always encoded in UTF-8\nand this is a proof.\nΕδώ γράφουμε Ελληνικα."
 	fmt.Println(alwaysUtf8)
+
+	//AGGREGATE (NON-REFERENCE) TYPES
+
+	//arrays
+	var favouriteNumbers [3]int = [3]int{6, 2, 9}
+	fmt.Println(favouriteNumbers)
+
+	var favouriteWords = [...]string{"excellent", "why"}
+	fmt.Println(favouriteWords[1])
+
+	//structs
+	type customer struct {
+		name string
+		age  uint8
+	}
+
+	firstCustomer := customer{
+		name: "Mickey Mouse",
+		age:  12,
+	}
+
+	fmt.Println("First customer name: ", firstCustomer.name)
+	fmt.Println("First customer age: ", firstCustomer.age)
+
+	secondCustomer := customer{"Iron Man", 20}
+
+	fmt.Println("Second customer: ", secondCustomer)
 }
