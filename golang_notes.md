@@ -1,5 +1,8 @@
 # Golang Notes
 
+### Data types
+- Go source files are always encoded in UTF-8 and strings are conventionally interpreted as UTF-8, so we can include Unicode code points in string literals.
+
 ### Productivity
 #### Best IDE
 - Use GoLand or IntelliJ with [Go plugin](https://plugins.jetbrains.com/plugin/9568-go).
