@@ -24,6 +24,6 @@ func main() {
 	rodentSubFamily := "Cricetidae"
 	fmt.Println("Rodent subfamilty: ", rodentSubFamily)
 
-	var alwaysUtf8 string = "Go source files are always encoded in UTF-8\nand this is a proof"
+	var alwaysUtf8 string = "Go source files are always encoded in UTF-8\nand this is a proof.\nΕδώ γράφουμε Ελληνικα."
 	fmt.Println(alwaysUtf8)
 }
