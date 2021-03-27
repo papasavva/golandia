@@ -3,7 +3,7 @@ Hands-on introduction to Go using code examples
 
 ## Topics covered
 - [x] Hello World
-- [ ] Values
+- [x] Values
 - [ ] Variables
 - [ ] Constants
 - [ ] For
