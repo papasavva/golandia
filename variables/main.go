@@ -23,4 +23,7 @@ func main() {
 	//shorthand assignment statement in place of a var declaration with implicit type
 	rodentSubFamily := "Cricetidae"
 	fmt.Println("Rodent subfamilty: ", rodentSubFamily)
+
+	var alwaysUtf8 string = "Go source files are always encoded in UTF-8\nand this is a proof"
+	fmt.Println(alwaysUtf8)
 }
