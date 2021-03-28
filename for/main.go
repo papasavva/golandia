@@ -19,7 +19,17 @@ func loopOverArray() {
 		//break
 	}
 }
+
+func stringIteration() {
+	const city string = "Βαβυλώνα"
+
+	for index, character := range city {
+		fmt.Printf("Character %c is at position %d\n", character, index)
+	}
+
+}
 func main() {
 	simpleLoop()
 	loopOverArray()
+	stringIteration()
 }
