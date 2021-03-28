@@ -23,8 +23,11 @@ func loopOverArray() {
 func stringIteration() {
 	const city string = "Βαβυλώνα"
 
+	//%q	a double-quoted string safely escaped with Go syntax
+	//%d	base 10
+	//reference: https://golang.org/pkg/fmt/
 	for index, character := range city {
-		fmt.Printf("Character %c is at position %d\n", character, index)
+		fmt.Printf("Character %q is at position %d\n", character, index)
 	}
 
 }
