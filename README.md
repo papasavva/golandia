@@ -5,7 +5,7 @@ Hands-on introduction to Go using code examples
 - [x] Hello World
 - [x] Values
 - [x] Variables
-- [ ] Constants
+- [x] Constants
 - [ ] For
 - [ ] If/Else
 - [ ] Switch
