@@ -7,8 +7,8 @@ Hands-on introduction to Go using code examples
 - [x] Variables
 - [x] Constants
 - [x] For
-- [ ] If/Else
-- [ ] Switch
+- [x] If/Else
+- [x] Switch
 - [ ] Arrays
 - [ ] Slices
 - [ ] Maps
