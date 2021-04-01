@@ -12,9 +12,9 @@ Hands-on introduction to Go using code examples
 - [x] Arrays
 - [x] Slices
 - [x] Maps
-- [ ] Range
-- [ ] Functions
-- [ ] Multiple Return Values
+- [x] Range
+- [x] Functions
+- [x] Multiple Return Values
 - [ ] Variadic Functions
 - [ ] Closures
 - [ ] Recursion
