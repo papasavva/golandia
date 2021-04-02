@@ -16,11 +16,13 @@ func main() {
 	//numbers
 	fmt.Println("level: ", level)
 
-	var temperature int8 = -128
+	//Declaration with type inference
+	var temperature = -128
 	fmt.Println("temperature overflow: ", temperature-1)
 
+	//Short Variable Declaration
 	//boolean
-	var isLocked bool = false
+	isLocked := false
 	fmt.Println("front door is locked: ", isLocked)
 
 	//String
