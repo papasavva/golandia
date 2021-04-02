@@ -2,11 +2,18 @@ package main
 
 import "fmt"
 
+var level int = 15
+
+//short declaration in toplevel is not allowed
+//level int = 15
+
+//Redeclaration in toplevel is not allowed
+//level =20
+
 func main() {
 	//BASIC TYPES
 
 	//numbers
-	var level int = 15
 	fmt.Println("level: ", level)
 
 	var temperature int8 = -128
