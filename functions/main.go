@@ -26,3 +26,11 @@ func sumAndAverage(a int, b int) (int, int) {
 
 	return sum, average
 }
+
+func sum(numbers ...int) int {
+	var sum int
+	for _, number := range numbers {
+		sum += number
+	}
+	return sum
+}
