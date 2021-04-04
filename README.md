@@ -18,9 +18,9 @@ Hands-on introduction to Go using code examples
 - [x] Variadic Functions
 - [x] Closures
 - [x] Recursion
-- [ ] Pointers
+- [x] Pointers
 - [x] Structs
-- [ ] Methods
+- [x] Methods
 - [ ] Interfaces
 - [ ] Errors
 - [ ] Goroutines
