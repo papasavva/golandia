@@ -21,7 +21,7 @@ Hands-on introduction to Go using code examples
 - [x] Pointers
 - [x] Structs
 - [x] Methods
-- [ ] Interfaces
+- [x] Interfaces
 - [ ] Errors
 - [ ] Goroutines
 - [ ] Channels
