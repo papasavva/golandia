@@ -1,7 +1,6 @@
 # Golang Notes
 
 ## Variables
-
 ### Declaration
 - Short declarations in toplevel is not allowed
 - Redeclaration in toplevel is not allowed
@@ -19,3 +18,8 @@
 - Add add go fmt and goimports. This will format the file and introduce imports to the code on save. 
 - Then open directory as project from project browser.
 - On file save, the code will be formatted and introduce the necessary imports.
+
+## Error Handling
+- Go communicates errors via an explicit, separate return value.
+- By convention, error is the last return value and have type error.
+- A nil value in the error, indicates that there was no error.
