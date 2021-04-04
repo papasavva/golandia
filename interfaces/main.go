@@ -30,7 +30,7 @@ func (r Rectangle) Perimeter() float64 {
 
 //Circle
 func (c Circle) Area() float64 {
-	return math.Pi * c.radius * c.radius
+	return math.Pi * math.Pow(c.radius, 2)
 }
 
 func (c Circle) Perimeter() float64 {
