@@ -22,7 +22,7 @@ Hands-on introduction to Go using code examples
 - [x] Structs
 - [x] Methods
 - [x] Interfaces
-- [ ] Errors
+- [x] Errors
 - [ ] Goroutines
 - [ ] Channels
 - [ ] Channel Buffering
