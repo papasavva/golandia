@@ -24,8 +24,8 @@ Hands-on introduction to Go using code examples
 - [x] Interfaces
 - [x] Errors
 - [x] Goroutines
-- [ ] Channels
-- [ ] Channel Buffering
+- [x] Channels
+- [x] Channel Buffering
 - [ ] Channel Synchronization
 - [ ] Channel Directions
 - [ ] Select
