@@ -29,7 +29,7 @@ Hands-on introduction to Go using code examples
 - [x] Channel Synchronization
 - [x] Channel Directions
 - [x] Select
-- [ ] Timeouts
+- [x] Timeouts
 - [ ] Non-Blocking Channel Operations
 - [ ] Closing Channels
 - [ ] Range over Channels
