@@ -27,7 +27,7 @@ Hands-on introduction to Go using code examples
 - [x] Channels
 - [x] Channel Buffering
 - [x] Channel Synchronization
-- [ ] Channel Directions
+- [x] Channel Directions
 - [ ] Select
 - [ ] Timeouts
 - [ ] Non-Blocking Channel Operations
