@@ -31,8 +31,8 @@ Hands-on introduction to Go using code examples
 - [x] Select
 - [x] Timeouts
 - [x] Non-Blocking Channel Operations
-- [ ] Closing Channels
-- [ ] Range over Channels
+- [x] Closing Channels
+- [x] Range over Channels
 - [ ] Timers
 - [ ] Tickers
 - [ ] Worker Pools
